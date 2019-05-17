@@ -4,5 +4,3 @@ services:
     build: .
     ports:
      - "5001:5001"
-    redis:
-      image: "suraj9/flaskex_pro:alpine"
