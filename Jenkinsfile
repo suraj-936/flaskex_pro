@@ -5,9 +5,9 @@ pipeline {
                  agent {
                         dockerfile true 
                  }
-                 }
 		 steps {
 			echo "Hello"
+		 }
 		 }
 		 stage('One') {
                  steps {
