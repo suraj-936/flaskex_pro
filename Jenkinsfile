@@ -5,10 +5,6 @@ pipeline {
 		 agent {
 			dockerfile true
 		 }
-		 steps {
-			sh 'python --version'
-			sh 'python app.py'
-		 }	
 		 }
 }
 }
