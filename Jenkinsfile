@@ -6,11 +6,13 @@ pipeline {
                         dockerfile true 
                  }
                  }
+		 steps {
+			echo "Hello"
+		 }
+		 stage('One') {
                  steps {
                      echo 'Hi, this is Suraj'
                  }
-                 steps {
-                       echo "Hello"
                  }
               }
 }
