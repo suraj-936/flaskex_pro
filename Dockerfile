@@ -1,4 +1,4 @@
-FROM python:3
+FROM . 
 ADD . . 
 WORKDIR .
 RUN pip install -r "requirements.txt"
