@@ -1,8 +1,9 @@
 version: '3'
 services: 
   web:
-    build: 
-      context: .
-      dockerfile: Dockerfile
-    ports:
-            - "5000:5007"
+      image: suraj9/flaskex_pro_web
+      networks:
+          - dockernet
+networks: 
+    dockernet:
+        external: true
