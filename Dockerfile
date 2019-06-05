@@ -1,4 +1,4 @@
-FROM . 
+FROM suraj9/flaskex_pro
 ADD . . 
 WORKDIR .
 RUN pip install -r "requirements.txt"
